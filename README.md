@@ -1,9 +1,4 @@
-# Fraud_Detection
-Claro! Aqui está um modelo organizado de README para você colocar no seu repositório GitHub. Ajuste conforme suas preferências e conforme o contexto do seu projeto:
-
----
-
-# Projeto de Classificação com Validação Cruzada e Comparação de Modelos de Machine Learning
+# Projeto de Classificação de Fraude com Validação Cruzada e Comparação de Modelos de Machine Learning
 
 ## Descrição
 
@@ -15,14 +10,10 @@ Este projeto aplica e compara métodos de classificação utilizando diferentes 
 
 ```
 ├── data/
-│   └── dataset.csv
+│   └── credit_card_fraud_10k.csv
 ├── notebooks/
 │   ├── 01_preprocessamento_e_exploracao.ipynb
-│   ├── 02_modelos_e_treinamento.ipynb
-│   ├── 03_comparacao_metricas.ipynb
-├── src/
-│   ├── models.py
-│   ├── utils.py
+│   ├── 02_modelos_e_comparacao_metricas.ipynb
 ├── README.md
 ├── requirements.txt
 └── results/
@@ -72,7 +63,7 @@ Este projeto aplica e compara métodos de classificação utilizando diferentes 
    - Coloque seu arquivo na pasta `/data`
 
 4. **Notebooks**
-   - Execute os notebooks na pasta `/notebooks` de acordo com o fluxo acima
+   - Execute os notebooks de acordo com o fluxo acima
 
 ---
 
@@ -86,7 +77,9 @@ Este projeto aplica e compara métodos de classificação utilizando diferentes 
 
 ## Exemplo de Imagens Geradas
 
-*Insira aqui exemplos de matrizes de confusão, curva ROC, ou qualquer outro resultado visual relevante.*
+<img width="855" height="710" alt="image" src="https://github.com/user-attachments/assets/119423c5-2849-423a-9ff6-1e6dcd685b0f" />
+<img width="2331" height="384" alt="image" src="https://github.com/user-attachments/assets/d003a5f5-2e58-46a5-8f0c-b694d3059abb" />
+<img width="383" height="140" alt="image" src="https://github.com/user-attachments/assets/1f927e56-97fb-419a-a185-10f5345e1674" />
 
 ---
 
@@ -96,8 +89,16 @@ Este projeto aplica e compara métodos de classificação utilizando diferentes 
 - scikit-learn  
 - matplotlib  
 - pandas  
-- xgboost  
-- (adapte conforme sua necessidade)
+- xgboost
+- sklearn.ensemble
+- sklearn.neighbors
+- sklearn.tree
+- sklearn.linear_model
+- sklearn.metrics
+- sklearn.model_selection
+- sklearn.preprocessing
+- sklearn.pipeline
+- imblearn.over_sampling
 
 ---
 
