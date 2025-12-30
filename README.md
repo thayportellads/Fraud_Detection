@@ -20,8 +20,6 @@ Este projeto aplica e compara métodos de classificação utilizando diferentes 
     └── figuras/
 ```
 
----
-
 ## Principais Etapas
 
 1. **Pré-processamento**
@@ -104,8 +102,8 @@ Este projeto aplica e compara métodos de classificação utilizando diferentes 
 
 ## Referências
 
-- [Scikit-learn Documentation](https://scikit-learn.org/stable/) {target="_blank"}
-- [XGBoost Documentation](https://xgboost.readthedocs.io/en/stable/) {target="_blank"}
+- [Scikit-learn Documentation](https://scikit-learn.org/stable/)
+- [XGBoost Documentation](https://xgboost.readthedocs.io/en/stable/)
 
 ---
 
